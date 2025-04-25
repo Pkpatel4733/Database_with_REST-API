@@ -1,5 +1,3 @@
-
-
 # Copilot Custom Instructions for Data Table Project
 
 ## General Guidelines
@@ -22,5 +20,5 @@
 - Deploy the application on Azure App Service.
 
 ## Additional Instructions
-- When generating for loops in Java, always use the range from 1 to 50.
+- When generating for loops, always use the range from 1 to 50.
 - Provide code examples with proper indentation and formatting.

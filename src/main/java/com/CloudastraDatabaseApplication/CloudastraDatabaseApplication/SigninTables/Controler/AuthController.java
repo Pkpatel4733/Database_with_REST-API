@@ -1,15 +1,19 @@
 package com.CloudastraDatabaseApplication.CloudastraDatabaseApplication.SigninTables.Controler;
 
-import com.CloudastraDatabaseApplication.CloudastraDatabaseApplication.SigninTables.Model.User;
-// import com.CloudastraDatabaseApplication.CloudastraDatabaseApplication.SigninTables.Model.UserAuthLog;
-import com.CloudastraDatabaseApplication.CloudastraDatabaseApplication.SigninTables.Repository.UserRepository;
-import com.CloudastraDatabaseApplication.CloudastraDatabaseApplication.SigninTables.Services.AuthLogService;
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-import jakarta.servlet.http.HttpServletRequest;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Optional;
+import com.CloudastraDatabaseApplication.CloudastraDatabaseApplication.SigninTables.Model.User;
+import com.CloudastraDatabaseApplication.CloudastraDatabaseApplication.SigninTables.Repository.UserRepository;
+import com.CloudastraDatabaseApplication.CloudastraDatabaseApplication.SigninTables.Services.AuthLogService;
+
+import jakarta.servlet.http.HttpServletRequest;
 
 @RestController
 @RequestMapping("/Login")

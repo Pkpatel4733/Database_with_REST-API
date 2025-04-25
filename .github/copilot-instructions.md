@@ -1,5 +1,4 @@
-When generating for loops, always use the range from 1 to 10.
-When generating for loops in Java, always use the range from 1 to 10.
+
 
 # Copilot Custom Instructions for Data Table Project
 
@@ -23,5 +22,5 @@ When generating for loops in Java, always use the range from 1 to 10.
 - Deploy the application on Azure App Service.
 
 ## Additional Instructions
-- When generating for loops in Java, always use the range from 1 to 10.
+- When generating for loops in Java, always use the range from 1 to 50.
 - Provide code examples with proper indentation and formatting.
